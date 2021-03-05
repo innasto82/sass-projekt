@@ -83,6 +83,8 @@
 /*==========  1.1 - @import(s)  ==========*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,300;1,500;1,700;1,900&display=swap);
 /***/
 /*==========  1.2 - Fonts  ==========*/
 /***/
@@ -10490,17 +10492,17 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #5b5b5b;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
 
 body a, body input, body p {
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
   text-transform: uppercase;
   color: #222222;
-  font-family: "Lato Bold", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 24px;
   margin-top: 24px;
 }
@@ -10780,7 +10782,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #ffffff;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
   margin-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -10804,7 +10806,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -10901,7 +10903,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-weight: 700;
     text-transform: uppercase;
     background-color: #ffffff;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Archivo Black", sans-serif;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-left: 0;
@@ -10918,7 +10920,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Archivo Black", sans-serif;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     background-color: #ffffff;
@@ -10964,7 +10966,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Archivo Black", sans-serif;
   }
   .navbar-default.affix .open .dropdown-menu > li > a:hover, .navbar-default.affix .open .dropdown-menu > li > a:focus {
     background-color: #ffffff;
@@ -11077,7 +11079,7 @@ header.header-image .header-content .header-content-inner h5 {
   width: 40px;
   height: 40px;
   font-size: 32px;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
   line-height: 35.2px;
   margin: 0;
   z-index: 11;
@@ -11117,19 +11119,22 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 #main-slider .carousel-caption h1 {
-  font-size: 48px;
+  font-size: 38px;
   margin-top: 24px;
   margin-bottom: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 #main-slider .carousel-caption p {
   font-size: 20px;
   margin-bottom: 24px;
+  text-transform: uppercase;
 }
 
 #main-slider .carousel-caption .btn-primary {
   margin-top: 48px;
-  font-size: 14px;
+  font-size: 22px;
   padding: 10px 12px;
 }
 
@@ -11159,7 +11164,7 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption .btn-primary {
     margin-top: 48px;
-    font-size: 14px;
+    font-size: 22px;
     padding: 10px 12px;
   }
   #main-slider .icon-prev, #main-slider .icon-next {
@@ -11370,7 +11375,7 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 .t108-footer .footer-above {
-  padding-top: 48px;
+  padding-top: 80px;
 }
 
 .t108-footer .footer-above .margin-none p {
@@ -11387,6 +11392,10 @@ header.header-image .header-content .header-content-inner h5 {
 
 .t108-footer .footer-above .footer-col .contact p, .t108-footer .footer-above .footer-col .tweets p {
   margin: 0;
+}
+
+.t108-footer .footer-above .footer-col .contact p .fa-facebook, .t108-footer .footer-above .footer-col .contact p .fa-google-plus, .t108-footer .footer-above .footer-col .contact p .fa-twitter, .t108-footer .footer-above .footer-col .contact p .fa-outline, .t108-footer .footer-above .footer-col .tweets p .fa-facebook, .t108-footer .footer-above .footer-col .tweets p .fa-google-plus, .t108-footer .footer-above .footer-col .tweets p .fa-twitter, .t108-footer .footer-above .footer-col .tweets p .fa-outline {
+  font-size: 25px;
 }
 
 @media (max-width: 768px) {
@@ -11460,7 +11469,8 @@ header.header-image .header-content .header-content-inner h5 {
   border-color: #a5e200;
   text-transform: uppercase;
   padding: 10px 12px;
-  margin-bottom: 24px;
+  margin-bottom: 72px;
+  font-size: 22px;
 }
 
 .btn-primary:hover {
@@ -11506,9 +11516,10 @@ hr {
 }
 
 hr.divider-light-dark {
-  max-width: 79.2px;
+  width: 150px;
   border-color: #a5e200;
   border-width: 3px;
+  opacity: 50%;
 }
 
 hr.divider-light {
@@ -11587,7 +11598,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-page time {
   font-size: 20px;
-  font-family: "Lato Bold", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #222222;
   text-transform: uppercase;
 }
@@ -11662,6 +11673,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 /*==========  6.3 - One Page styles  ==========*/
 .t108-one-page hr {
   margin-bottom: auto;
+  width: 150px;
 }
 
 .t108-one-page #about {
@@ -11679,12 +11691,21 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-one-page #about .about-box .icon-about {
   color: #ffffff;
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border-radius: 100%;
-  line-height: 72px;
+  line-height: 96px;
   background-color: #a5e200;
   margin: 0 auto 24px;
+  align-items: center;
+}
+
+.t108-one-page #about, .t108-one-page #services, .t108-one-page #counters-progress, .t108-one-page #team, .t108-one-page #counters-numbers {
+  width: 150px;
+}
+
+.t108-one-page .portfolio-box:hover, .t108-one-page .portfolio-box-caption:hover {
+  transition-duration: 1s;
 }
 
 @media (max-width: 768px) {
@@ -11816,7 +11837,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-services {
-  background-color: #f7f7f7;
+  background-color: #f0f4dc;
   padding: 96px 0 24px;
 }
 
@@ -11827,6 +11848,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
+  transition-duration: 0.5s;
+}
+
+.t108-one-page #counters-services .icon-services:hover {
+  transform: rotate(-45deg);
 }
 
 .t108-one-page #counters-services .counters-box {
@@ -11937,6 +11963,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 #single-post .comment hr {
   margin: 0;
+  width: 150px;
 }
 
 #single-post .comment p {

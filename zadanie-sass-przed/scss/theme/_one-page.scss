@@ -5,6 +5,7 @@
 
     hr {
         margin-bottom: auto;
+        width: 150px;
     }
 
     #about {
@@ -29,13 +30,14 @@
                 align-items: center;
             }
         }
+            #about, #services, #counters-progress, #team, #counters-numbers {
+            width: 150px;
+        }
+           .portfolio:hover {
+            transition-duration: 1s;
+        }
 	}
-    #about, #services, #counters-progress, #team, #counters-numbers {
-        width: 150px;
-    }
-    .portfolio-box:hover .portfolio-box-caption:hover{
-        transition-duration: 1s;
-    }
+   
     @media(max-width: 768px) {
 
         #about {
@@ -198,9 +200,10 @@
             }
 
             .divider-light-dark {
-                width: $baseline * 2;
+                width: 25px;
                 margin-left: $padding-none;
                 margin-bottom: 20px;
+                opacity: 50%;
             }
         }
     }

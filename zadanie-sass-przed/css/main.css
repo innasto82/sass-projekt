@@ -10640,19 +10640,23 @@ header.header-image .header-content .header-content-inner h5 {
   margin-top: 12px;
 }
 
+header.header-image .header-content .header-content-inner .fa-twitter, header.header-image .header-content .header-content-inner .fa-facebook, header.header-image .header-content .header-content-inner .fa-linkedin, header.header-image .header-content .header-content-inner .fa-google-plus {
+  font-size: 25px;
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
-  header.header-image {
+  header.header-image header.header-image {
     top: 100px;
   }
-  header.header-image .header-content {
+  header.header-image header.header-image .header-content {
     top: 20%;
   }
-  header.header-image .header-content .header-content-inner h2 {
+  header.header-image header.header-image .header-content .header-content-inner h2 {
     font-size: 39px;
     margin-bottom: 24px;
     margin-top: 24px;
   }
-  header.header-image .header-content .header-content-inner h5 {
+  header.header-image header.header-image .header-content .header-content-inner h5 {
     font-size: 20px;
     margin-bottom: 24px;
     margin-top: 24px;
@@ -10660,52 +10664,52 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 @media (min-width: 992px) {
-  header.header-image {
+  header.header-image header.header-image {
     top: 100px;
   }
-  header.header-image .header-content {
+  header.header-image header.header-image .header-content {
     top: 20%;
   }
-  header.header-image .header-content .header-content-inner h2 {
+  header.header-image header.header-image .header-content .header-content-inner h2 {
     font-size: 39px;
     margin-bottom: 24px;
     margin-top: 24px;
   }
-  header.header-image .header-content .header-content-inner h5 {
+  header.header-image header.header-image .header-content .header-content-inner h5 {
     font-size: 20px;
     margin-bottom: 24px;
     margin-top: 24px;
   }
 }
 
-.header-contact {
+header.header-image .header-contact {
   height: 0;
   font-size: 0;
 }
 
 @media (min-width: 768px) {
-  .header-contact {
+  header.header-image .header-contact {
     background-color: #f7f7f7;
     height: 32px;
     line-height: 32px;
     font-size: 16px;
   }
-  .header-contact .phone {
+  header.header-image .header-contact .phone {
     height: 32px;
   }
-  .header-contact a, .header-contact .phone {
+  header.header-image .header-contact a, header.header-image .header-contact .phone {
     color: #979797;
   }
-  .header-contact a:hover {
+  header.header-image .header-contact a:hover {
     color: #979797;
   }
-  .header-contact ul {
+  header.header-image .header-contact ul {
     margin-bottom: 0;
   }
-  .header-contact ul .fa-twitter, .header-contact ul .fa-facebook, .header-contact ul .fa-linkedin, .header-contact ul .fa-google-plus {
+  header.header-image .header-contact ul .fa-twitter, header.header-image .header-contact ul .fa-facebook, header.header-image .header-contact ul .fa-linkedin, header.header-image .header-contact ul .fa-google-plus {
     color: #a5e200;
   }
-  .header-contact ul .fa-twitter:hover, .header-contact ul .fa-facebook:hover, .header-contact ul .fa-linkedin:hover, .header-contact ul .fa-google-plus:hover {
+  header.header-image .header-contact ul .fa-twitter:hover, header.header-image .header-contact ul .fa-facebook:hover, header.header-image .header-contact ul .fa-linkedin:hover, header.header-image .header-contact ul .fa-google-plus:hover {
     color: #88ba00;
   }
 }
@@ -11134,7 +11138,7 @@ header.header-image .header-content .header-content-inner h5 {
 
 #main-slider .carousel-caption .btn-primary {
   margin-top: 48px;
-  font-size: 14px;
+  font-size: 22px;
   padding: 10px 12px;
 }
 
@@ -11164,7 +11168,7 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption .btn-primary {
     margin-top: 48px;
-    font-size: 14px;
+    font-size: 22px;
     padding: 10px 12px;
   }
   #main-slider .icon-prev, #main-slider .icon-next {
@@ -11378,6 +11382,10 @@ header.header-image .header-content .header-content-inner h5 {
   padding-top: 80px;
 }
 
+.t108-footer .footer-above .btn-social > .fa {
+  font-size: 25px;
+}
+
 .t108-footer .footer-above .margin-none p {
   margin-bottom: 0;
 }
@@ -11394,46 +11402,42 @@ header.header-image .header-content .header-content-inner h5 {
   margin: 0;
 }
 
-.t108-footer .footer-above .footer-col .contact p .fa-facebook, .t108-footer .footer-above .footer-col .contact p .fa-google-plus, .t108-footer .footer-above .footer-col .contact p .fa-twitter, .t108-footer .footer-above .footer-col .contact p .fa-outline, .t108-footer .footer-above .footer-col .tweets p .fa-facebook, .t108-footer .footer-above .footer-col .tweets p .fa-google-plus, .t108-footer .footer-above .footer-col .tweets p .fa-twitter, .t108-footer .footer-above .footer-col .tweets p .fa-outline {
-  font-size: 25px;
-}
-
 @media (max-width: 768px) {
-  .t108-footer .footer-above .footer-col .contact .pull-right, .t108-footer .footer-above .footer-col .tweets .pull-right {
+  .t108-footer .footer-above .footer-col .pull-right {
     float: left !important;
   }
 }
 
-.t108-footer .footer-above .footer-col .contact a:hover p, .t108-footer .footer-above .footer-col .tweets a:hover p {
+.t108-footer .footer-above .footer-col a:hover p {
   margin: 0;
   color: #a5e200;
 }
 
-.t108-footer .footer-above .footer-col .contact .fa-twitter, .t108-footer .footer-above .footer-col .tweets .fa-twitter {
+.t108-footer .footer-above .footer-col .fa-twitter {
   color: #a5e200;
 }
 
-.t108-footer .footer-above .footer-col .tweets a:hover {
+.t108-footer .footer-above .tweets a:hover {
   color: #88ba00;
 }
 
-.t108-footer .footer-above a {
+.t108-footer a {
   text-decoration: none;
 }
 
-.t108-footer .footer-above a:hover {
+.t108-footer a:hover {
   color: #a5e200;
 }
 
-.t108-footer .footer-above .btn-default:hover {
+.t108-footer .btn-default:hover {
   border-color: #a5e200;
 }
 
-.t108-footer h1, .t108-footer h2, .t108-footer h3, .t108-footer h4, .t108-footer h5, .t108-footer h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #979797;
 }
 
-.t108-footer p {
+p {
   color: #979797;
 }
 
@@ -11516,7 +11520,7 @@ hr {
 }
 
 hr.divider-light-dark {
-  width: 25px;
+  width: 150px;
   border-color: #a5e200;
   border-width: 3px;
   opacity: 50%;
@@ -11663,6 +11667,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   color: #88ba00;
   border-color: #88ba00;
   background-color: #ffffff;
+  transition-duration: 1s;
 }
 
 #blog .btn-primary {
@@ -11673,6 +11678,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 /*==========  6.3 - One Page styles  ==========*/
 .t108-one-page hr {
   margin-bottom: auto;
+  width: 150px;
 }
 
 .t108-one-page #about {
@@ -11699,11 +11705,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   align-items: center;
 }
 
-.t108-one-page #about, .t108-one-page #services, .t108-one-page #counters-progress, .t108-one-page #team, .t108-one-page #counters-numbers {
+.t108-one-page #about #about, .t108-one-page #about #services, .t108-one-page #about #counters-progress, .t108-one-page #about #team, .t108-one-page #about #counters-numbers {
   width: 150px;
 }
 
-.t108-one-page .portfolio-box:hover .portfolio-box-caption:hover {
+.t108-one-page #about .portfolio:hover {
   transition-duration: 1s;
 }
 
@@ -11863,9 +11869,10 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-services .counters-box .divider-light-dark {
-  width: 48px;
+  width: 25px;
   margin-left: 0;
   margin-bottom: 20px;
+  opacity: 50%;
 }
 
 @media (max-width: 768px) {
@@ -12155,7 +12162,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 #contact .fa {
   margin-top: 24px;
-  font-size: 16px;
+  font-size: 25px;
   color: #a5e200;
 }
 
@@ -12544,6 +12551,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 #interactive-elements #counters-numbers .counters-box .fa, #interactive-elements #counters-progress .counters-box .fa {
   color: #a5e200;
+  font-size: 25px;
 }
 
 #interactive-elements #counters-numbers .counters-box h1, #interactive-elements #counters-progress .counters-box h1 {

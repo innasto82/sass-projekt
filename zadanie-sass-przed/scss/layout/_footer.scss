@@ -6,27 +6,27 @@
 
 	.footer-above {
 		padding-top: 80px;
+	.btn-social> .fa {
+		font-size: 25px;
+	}
 
-		.margin-none {
+	.margin-none {
 
-			p {
-				margin-bottom: $margin-none;
+		p {
+			margin-bottom: $margin-none;
 			}
 		}
 
-		.footer-col {
-			margin-bottom: $baseline * 3;
+	.footer-col {
+		margin-bottom: $baseline * 3;
 
-			.contact, .tweets {
-				padding-left: $padding-none;
+		.contact, .tweets {
+			padding-left: $padding-none;
 
-				p {
-					margin: $margin-none;
-
-				.fa-facebook, .fa-google-plus, .fa-twitter, .fa-outline {
-					font-size: 25px;
-				}
-				}
+			p {
+				margin: $margin-none;
+		}
+	}
 
 				@media(max-width: 768px) {
 
@@ -76,4 +76,3 @@
 	p {
 		color: $color-text-light;
 	}
-}
